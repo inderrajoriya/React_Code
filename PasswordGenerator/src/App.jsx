@@ -28,6 +28,8 @@ function App() {
 
   }, [length, numberAllowed, charAllowed, setPassword])
 
+  //copy wala part
+
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select();
     passwordRef.current?.setSelectionRange(0, 999);
